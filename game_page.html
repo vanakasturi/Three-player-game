@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>The Match Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="game.css">
+    
+</head>
+    
+    <body><center>
+        <h2 style="color: #98092a; font-size: 50px;">"Numerical Nexus Quiz"</h2>
+        <div class="line"></div></center>
+         <center><h2>"Welcome to the world of numbers! Are you ready to test your numerical prowess?"</h2></center>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+     <br> 
+         <h4 id="player2_name"></h4> <span id="player2_score"></span>
+         <br> 
+         <h4 id="player3_name"></h4> <span id="player3_score"></span>
+        
+      <center>
+          <div id="container">
+       
+           
+           <h3 id="player_question"></h3>
+            <h3 id="player_answer"></h3>
+          <h3 id="third_persion"></h3>
+           <div id="output" class="col-lg-6"></div>
+           <br>
+           <br>
+           <h4>Player 1</h4>
+           <input style="width: 50%" type="text" id="number1" class="form-control" placeholder="Enter your value ">
+           <br>
+           <h4>Player 2</h4>
+           <input style="width: 50%" type="text" id="number2" class="form-control" placeholder="Enter your value">
+            <br>
+          
+           <h4>Player 3</h4>
+           <input style="width: 50%" type="text" id="number3" class="form-control" placeholder="Enter your value ">
+           <br>
+            <button onclick="send()" class="btn btn-success" style="width: 15%;" id="button1">Send</button>
+           </div></center>
+      
+    </body>
+     <script src="game_page.js"></script>
+    <style>
+       body{
+   background-image: url(bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+     h4{
+      font-family: sans-serif;
+        font-weight: bold;
+        color: #19197c;
+         
+        
+    }
+        .line{
+    background-color: #ff00c4;
+    width: 600px;
+    height: 4px;
+    margin: auto;
+}
+
+h2{
+    color:#6c1250;
+    text-align: center;
+}
+        #button1 {
+    background-color: #d534db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#button1:hover {
+    background-color: #a7b821;
+}
+        #player1_score, #player2_score, #player3_score{ 
+        font-size: 18px;
+            color: #19197c;
+            font-weight: bold;
+        }       
+    </style>
+   
+</html>

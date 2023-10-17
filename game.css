@@ -1,0 +1,93 @@
+body{
+   background-image: url(bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login_div1, .login_div2, .login_div3 {
+    background: bisque;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    width: 600px;
+}
+
+#player1_name , #player2_name, #player3_name {
+    display: inline-block;
+    margin-left: 20px;
+    color: rgba(193, 28, 79, 0.99);
+    font-weight: bold;
+}
+#word{
+    width: 60%;
+    
+}
+#word-display{
+    letter-spacing: 5px;
+}
+#output{
+    background: #f7e5d1;
+    border-radius: 10px;
+    border-top: 10px solid rgba(193, 28, 161, 0.99);
+    padding: 10px;
+    float: none;
+    text-align:left;
+
+}
+h1{
+            font-family: sans-serif;
+            font-size: 40px;
+            color: brown;
+    border-radius: 8px;
+            border: 1px solid white;
+            background-color: #f6ffc4;
+            width: 650px;
+        }
+h3{
+  font-family: sans-serif;
+    color: #3208be;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #725454;
+    background-color: rgba(245, 253, 41, 0.56);
+    color: #333;
+    font-size: 16px;
+}
+label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #810f0f;
+    margin-bottom: 5px;
+}
+#label1 {
+    width: 900px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #810f0f;
+    margin-bottom: 5px;
+}
+
+#button{
+    background-color: #55b821;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#button:hover {
+    background-color: #db34a8;
+}
+#container{
+    border: 3px solid #e81111;
+    width: 800px;
+    background-color: rgba(163, 216, 103, 0.67);
+}
+
+
